@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # numbers = '1 2 3 4 5 6 7'
 # n = numbers.split(' ')
 # nn = '\n'.join(n)
@@ -66,8 +66,11 @@
 # print((T))
 
 # 13.8.15
-L = [int(input()) % 2 == 0 for i in range(5)]
-print( any(L))
-=======
-print('Hello World!')
->>>>>>> origin/main
+# L = [int(input()) % 2 == 0 for i in range(5)]
+# print( any(L))
+# =======
+# print('Hello World!')
+# >>>>>>> origin/main
+myFile = open('namefile.txt', 'w')
+myFile.write('tttt')
+print('zzzz', file = myFile)
