@@ -16,3 +16,4 @@ print(type(res.json()))
 url =
 headers = {'accept': 'application/json'}
 res = requests.post(url, headers=headers, data=data)
+

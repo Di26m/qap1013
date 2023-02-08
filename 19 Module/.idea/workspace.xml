@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8780291-94a2-4e62-b362-0949315c7577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Задание 19.2.4 Тест Калькулятора/.idea/Задание 19.2.4 Тест Калькулятора.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2LSQfIqMRWENjnNuYMUvqt40xQp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Дмитрий/Desktop/Учеба/qap1013/19 Module"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8780291-94a2-4e62-b362-0949315c7577" name="Changes" comment="" />
+      <created>1675862106100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675862106100</updated>
+    </task>
+    <servers />
+  </component>
+</project>
