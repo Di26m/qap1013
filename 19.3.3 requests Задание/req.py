@@ -1,6 +1,6 @@
 import requests
 import json
-status ='available'
+status = 'available'
 
 # res = requests.get(f"https://petstore.swagger.io/v2/pet/findByStatus?status={status}", headers = {'accept': 'application/json'})
 res = requests.get(f"https://petstore.swagger.io/v2/pet/findByStatus", params={'status': 'available'}, headers={'accept': 'application/json'})
@@ -11,8 +11,10 @@ print(res.text)
 print(res.json())
 print(type(res.json()))
 
-qqq=res.json()
+qqq = res.json()
 print(qqq[0]['id'])
+
+# POST
 
 info = {
   "id": 0,
@@ -32,8 +34,9 @@ info = {
   ],
   "status": "available"
 }
-res_post = requests.post(f"https://petstore.swagger.io/v2/pet", headers={'accept': 'application/json', 'Content-Type': 'application/json'},
-                                  data=json.dumps(info, ensure_ascii=False))
+res_post = requests.post(f"https://petstore.swagger.io/v2/pet", headers={'accept': 'application/json',
+                                                                         'Content-Type': 'application/json'},
+                         data=json.dumps(info, ensure_ascii=False))
 
 print(res_post.status_code)
 print(res_post.text)
@@ -41,15 +44,9 @@ print(res_post.json())
 print(type(res_post.json()))
 
 
-petId = info.get('id')
-res_del = requests.delete(f"https://petstore.swagger.io/v2/pet/{petId}")
+# PUT
 
-print(res_del.status_code)
-print(res_del.text)
-print(res_del.json())
-print(type(res_del.json()))
-
-new_info = {
+info2 = {
   "id": 444,
   "category": {
     "id": 0,
@@ -67,16 +64,23 @@ new_info = {
   ],
   "status": "available"
 }
-petId = qqq[0]['id']
-# res_put = requests.put(f"https://petstore.swagger.io/v2/pet/{petId}",
-#     headers={'accept': 'application/json', 'Content-Type': 'application/json'},
-#     data=json.dumps(new_info, ensure_ascii=False))
 
-res_put = requests.put(f"https://petstore.swagger.io/v2/pet/{petId}",
+
+res_put = requests.put(f"https://petstore.swagger.io/v2/pet",
     headers={'accept': 'application/json', 'Content-Type': 'application/json'},
-    data=json.dumps(new_info, ensure_ascii=False))
+    data=json.dumps(info2, ensure_ascii=False))
 
 print(res_put.status_code)
 print(res_put.text)
 print(res_put.json())
 print(type(res_put.json()))
+
+# DEL
+petId = info2.get('id')
+
+res_del = requests.delete(f"https://petstore.swagger.io/v2/pet/{petId}")
+
+print(res_del.status_code)
+print(res_del.text)
+print(res_del.json())
+print(type(res_del.json()))
